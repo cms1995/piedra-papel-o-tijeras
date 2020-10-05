@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Piedra, papel o tijeras</title>
+</head>
+<body>
+    
+    <section class="juego">
+
+        <div class="marcador">
+            <div class="puntaje-jugador">
+                <h2>Jugador</h2>
+                <p>0</p>
+            </div>
+            <div class="puntaje-maquina">
+                <h2>Máquina</h2>
+                <p>0</p>
+            </div>
+        </div>
+
+<!-- afuera del marcador tenemos q hacer nuestras 2 secciones. la q empieza el juego y la del juego en si -->
+        <div class="inicio">
+            <h1>Piedra, papel o tijeras</h1>
+            <button>Juguemos!</button>
+        </div>
+
+        <div class="partida fadeOut">
+            <h2 class="ganador">Elige una opción</h2>
+            <div class="manos">
+                <img class="mano-jugador" src="./imagenes/piedra.png" alt="piedra">
+                <img class="mano-maquina" src="./imagenes/piedra.png" alt="piedra">                
+            </div>
+            <div class="opciones">
+                <button class="piedra">piedra</button>
+                <button class="papel">papel</button>
+                <button class="tijeras">tijeras</button>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
